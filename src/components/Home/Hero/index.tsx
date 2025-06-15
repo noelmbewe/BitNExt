@@ -68,26 +68,21 @@ const Hero = () => {
                 height={40}
               />
               <p className="text-white sm:text-28 text-18 mb-0">
-                Crypto On The <span className="text-primary">Go</span>
+                Trade <span className="text-primary">Freely</span>
               </p>
             </div>
             <h1 className="font-medium lg:text-76 md:text-70 text-54 lg:text-start text-center text-white mb-10">
-              Buy and Sell <span className="text-primary">Crypto</span> of your{" "}
-              <span className="text-primary">choice</span>!
+          Buy and Sell USD, MWK, <span className="text-primary">BTC,  </span> ETH{" "}
+              <span className="text-primary">Peer-to-Peer</span>
             </h1>
             <div className="flex items-center md:justify-start justify-center gap-8">
               <button
                 className="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-7 z-50"
                 onClick={() => setIsBuyingOpen(true)}
               >
-                Buy Crypto
+               Create Trade 
               </button>
-              <button
-                className="bg-transparent border border-primary rounded-lg text-21 font-medium hover:bg-primary hover:text-darkmode text-primary py-2 px-7"
-                onClick={() => setIsSellingOpen(true)}
-              >
-                Sell Crypto
-              </button>
+             
             </div>
             <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
               <Link href="#" className="hover:scale-110 duration-300">
